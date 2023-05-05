@@ -7,6 +7,11 @@ In digital image processing and computer vision, image segmentation is the proce
 
 The result of image segmentation is a set of segments that collectively cover the entire image, or a set of contours extracted from the image (see edge detection). Each of the pixels in a region are similar with respect to some characteristic or computed property, such as color, intensity, or texture. Adjacent regions are significantly different color respect to the same characteristic(s). When applied to a stack of images, typical in medical imaging, the resulting contours after image segmentation can be used to create 3D reconstructions with the help of interpolation algorithms like marching cubes.
 
+One generated example:-
+![One generated image](https://github.com/acfilok96/Image-Segmentation/blob/main/Image%20Segmentation%20Using%20U-Net%20and%20PixToPixGAN/Stage%201/GeneratedImg.png)
+
+
+
 In this architecture, we have used UpSampling2D(size=2,2) in place of Conv2DTranspose(strides=(2,2)), as we are doing segmentation so, we need to capture border information (i.e. error between side by side pixel should be negligible).
 
 One generated example:-
