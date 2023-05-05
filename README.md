@@ -9,4 +9,4 @@ The result of image segmentation is a set of segments that collectively cover th
 
 In this architecture, we have used UpSampling2D(size=2,2) in place of Conv2DTranspose(strides=(2,2)), as we are doing segmentation so, we need to capture border information (i.e. error between side by side pixel should be negligible).
 
-![One Generated Image](https://github.com/acfilok96/Image-Segmentation/blob/main/Image%20Segmentation%20Using%20U-Net%20and%20PixToPixGAN/Stage%202/Generated_Image.png)
+![One Generated Image](https://github.com/acfilok96/Image-Segmentation/blob/main/Image%20Segmentation%20Using%20U-Net%20and%20PixToPixGAN/Stage%202/Generated_Image_ok.png)
